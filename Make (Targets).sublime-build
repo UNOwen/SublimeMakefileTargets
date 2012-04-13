@@ -1,0 +1,4 @@
+{
+	"selector": "source.c, source.c++, source.php, source.python, source.makefile",
+	"target": "make_targetable_exec"
+}
