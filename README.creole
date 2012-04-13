@@ -1,0 +1,8 @@
+== What this thing is ==
+MakefileBuildTargets is alternative Sublime Text 2 build system for Make plugin, which adds basic support for Makefile build targets. The differences from the bundled version are as follows:
+* MBT will search for the nearest Makefile, relative to the edited file. Bundled version will always search for project-level Makefile.
+* MBT will provide the list of available build targets, if there are multiple. Bundled version will execute the first one anyway.
+
+== Why this version is bad ==
+* There is no sticking to project defined include paths, the Makefile will be searched until file-system root is reached.
+* MBT always asks which target to run, if there is more than one option (no quick-run).
