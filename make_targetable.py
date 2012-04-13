@@ -1,4 +1,4 @@
-import sublime_plugin, os, re
+import sublime, sublime_plugin, os, re
 # Main drawbacks:
 # * Only Makefile supported
 # * No sticking to project defined paths (simply traverses the tree)
