@@ -6,7 +6,7 @@ import sublime, sublime_plugin, os, re
 class MakeTargetableExecCommand(sublime_plugin.WindowCommand):
 	# Settings:
 	# * what should be matched in makefile
-	targetMatch = re.compile("^([a-z_]+):")
+	targetMatch = re.compile("^([A-Za-z_-]+):")
 	# Session
 	# * storage for per-buildfile "default" indexes
 	instanceRunIndexes = {}
